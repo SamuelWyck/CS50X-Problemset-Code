@@ -1,0 +1,4 @@
+Their audio aura would be maybe the sum average of the energy, danceablity, and valence of the 100 songs.
+
+A better way to do it would be to weight each song's energy, danceability, and valance by how popular that song was in the list of 100.
+It might also be good to take into account the user's time spent on spotify as well. If the user listens to songs on other platforms as well their spotify results will not represent their taste as a whole.

@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Index
+{% endblock %}
+
+{% block main %}
+    <div class="mb-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Current Balance: {{ user_assets.cash }}</th>
+                    <th>Grand Total: {{ user_assets.grand_total }}</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="mb-3">
+        <h4>Owned Stock</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                    <th>Shares Owned</th>
+                    <th>Current Price</th>
+                    <th>Total Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stock in user_stocks %}
+                <tr>
+                    <td> {{ stock.stock_symbol }} </td>
+                    <td> {{ stock.shares }} </td>
+                    <td> {{ stock.price }}</td>
+                    <td> {{ stock.total_value }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: This sort gets very slow with larger random and reversed files. However, it is very fast when going over the sorted files.
+
+sort2 uses: Merge Sort
+
+How do you know?: This sort has a consistently shorter time than the over two when sorting the two larger sizes. The file being reversed, sorted, or random does not seem to affect the time.
+
+sort3 uses: Selection Sort
+
+How do you know?: This sort gets very slow as the files get larger, and it is a consistent time no matter if the file is sorted or not.

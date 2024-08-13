@@ -1,0 +1,47 @@
+.header
+{
+    text-align: center;
+    font-size: large;
+}
+
+.top {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .top2 {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topleft {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topleft1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topright {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topright2 {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
